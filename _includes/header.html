@@ -4,11 +4,14 @@
       z-index: 1;
       color: #fff;
       position: absolute;
+      /* background-color: red; */
+      margin-left: 10px;
+      height: 100vh;
       left: 0px;
-      align-items: flex-start;
+      padding-left: 60px;
     "
   >
-    <div class="logo" style="margin-left: 50px; margin-top: 50px">
+    <div class="logo" style="margin-top: 50px">
       <img
         src="https://thumbs2.imgbox.com/5c/8a/kYlZK58E_t.png"
         alt="Myriad Venture Partners"
@@ -19,16 +22,20 @@
         data-loader="raw"
       />
     </div>
-    <div class="box" style="word-wrap: break-word">
+    <div
+      style="
+        word-wrap: break-word;
+        /* background-color: yellow; */
+        width: 50%;
+        height: 400px;
+      "
+    >
       <h3
         style="
-          white-space: pre-wrap;
           color: white;
-          transition-timing-function: ease;
-          transition-duration: 0.8s;
-          transition-delay: 0.2s;
-          font-size: 25px;
+          font-size: 30px;
           font-weight: 200;
+          overflow-wrap: break-word;
         "
       >
         Our business solution ensures swift assistance for key clients and
@@ -37,5 +44,24 @@
         serve their clients more efficiently and profitably.
       </h3>
     </div>
+
+    <button
+      style="
+        display: block;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        padding: 0.8em;
+        cursor: pointer;
+        width: 120px;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 4px;
+      "
+      onmouseover="this.style.backgroundColor='white'; this.style.color='black'"
+      onmouseout="this.style.backgroundColor='rgb(126, 26, 26)'; this.style.color='white'"
+    >
+      Get in Touch
+    </button>
   </div>
 </div>
