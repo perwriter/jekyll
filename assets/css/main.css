@@ -3860,7 +3860,22 @@ sup {
     font-size: 30px;
   }
 }
-
+@media only screen and (max-width: 450px) {
+  .hcontent .mdesc {
+    font-size: 25px;
+  }
+  .hcontent {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .hcontent .mdesc {
+    font-size: 20px;
+  }
+  .hcontent {
+    padding-bottom: 30px;
+  }
+}
 /* .header{
    top: 30%;
  

@@ -70,8 +70,6 @@
 .hcontent {
   word-wrap: break-word;
   width: 90%;
-  // height: 400px;
-  // background-color: yellow;
   padding-bottom: 80px;
   .mdesc {
     color: white;
@@ -85,6 +83,22 @@
   @media only screen and (max-width: 760px) {
     .mdesc {
       font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .hcontent .mdesc {
+      font-size: 25px;
+    }
+    .hcontent {
+      padding-bottom: 50px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .hcontent .mdesc {
+      font-size: 20px;
+    }
+    .hcontent {
+      padding-bottom: 30px;
     }
   }
 }
